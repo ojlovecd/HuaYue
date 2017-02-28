@@ -1,7 +1,7 @@
 /* General Blueprint Style */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 @font-face {
-	font-family: 'fontawesome', 微软雅黑;
+	font-family: 'fontawesome';
 	src:url('../fonts/fontawesome.eot');
 	src:url('../fonts/fontawesome.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/fontawesome.svg#fontawesome') format('svg'),
@@ -19,7 +19,7 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 .clearfix:after { clear: both; }
 
 body {
-    font-family: 'Lato', Calibri, Arial, sans-serif, 微软雅黑;
+    font-family:  微软雅黑;
     color: #47a3da;
 }
 
@@ -100,7 +100,7 @@ a:hover {
 
 .icon-drop:before, 
 .icon-arrow-left:before {
-	font-family: 'fontawesome', 微软雅黑;
+	font-family: 'fontawesome';
 	position: absolute;
 	top: 0;
 	width: 100%;
