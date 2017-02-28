@@ -57,10 +57,10 @@
 						if ($(this).height() > h)
 							h = $(this).height();
 					});
-					if(h + fixH > 300)
+					if(h + fixH > 340)
 						return h + fixH;
 					else
-						return 300;
+						return 340;
 				});
 				isReadry = 1;
 			},
